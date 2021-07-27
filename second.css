@@ -1,0 +1,82 @@
+body {
+    background-color:burlywood;
+}
+.h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: none;
+}
+
+h2 {
+    background: firebrick;
+    margin: 20px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:crimson ;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline;
+    float: left;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav li a:hover {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.list {
+    background-color: lightgoldenrodyellow;
+}
+
+.battles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:orange;
+    padding: 10px;
+    margin: 10px;
+}
+
+.monsters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:lightseagreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    border-style: groove;
+    border-width: 10px;
+    margin: 10px;
+}
+.img1 {
+    margin-left: 175px;
+}
+
+div {
+    border-style: ridge;
+}
